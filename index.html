@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs $ Logo at Top using HTML-->
+    <header>
+       <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu();">About</a></li>
+        <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+        <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+    </header>
+    <!-- Creating Banner Layout in HTML-->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Naveen B</span></h2>
+            <h3>I'm a Front End Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <!-- Creating About Me Layout in HTML-->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to know me
+            </p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/mypic1.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Naveen B</b>, a Visual UX/UI Designer and Web Developer</h2>
+                <p>I Enjoy Designing and creating a new types of design of my own and producing it.I like to learn the new booming designing technologies evolving.
+                    Web Designing makes me feel enthustiastic and feel towards working more and learning different design or creating them.I also have knowledge in python.</p><br>
+                <p>I'm trust worthy person where my company can faith on me or belief.My goal is to work in a good MNC company and make my company proud with my work.
+                I like to work for my company where i can showcase my skills and develop required websites for my company.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.docx" target="_blank" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b>Naveen B<br>
+                        <b>Age:</b>21
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b>naveenbn4923@gmail.com<br>
+                        <b>Location:</b>BANGALORE
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Creatig Services Layout in HTML-->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Services i offer to my Clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Designing Css</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-video-camera fa-4x"></i>
+                <h3>Video Editor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-file-image-o fa-4x"></i>
+                <h3>Photo Editor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-drupal fa-4x"></i>
+                <h3>Drupal Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Android Developer</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cart-arrow-down fa-4x"></i>
+                <h3>E-Commerce Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Designing Work Layout in HTML-->
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>Editing and Developed Works</b></p>
+        </div>
+        <div class="content">
+            <div class="wrkBx">
+                <a href="https://www.w3schools.com/css/css_website_layout.asp" target="_blank">
+                    <img src="images/html-illustration.png" alt="">
+                    <p>Well organized and easy to understand Web building examples HTML, CSS, JavaScript.</p>
+                </a>
+            </div>
+            <div class="wrkBx">
+                <a href="https://www.youtube.com/results?search_query=varadha+creations" target="_blank">
+                    <img src="images/videoediting.jpeg" alt="">
+                    <p>Varadha Creations Presents - "Pyscho", The Short Film  - 2020</p>
+                </a>
+            </div>
+            <div class="wrkBx">
+                <a href="https://www.instagram.com/___naveen__navi__?r=nametag" target="_blank">
+                    <img src="images/photoediting.jpeg" alt="">
+                    <p>I'm on Instagram as @__naveennavi_. Install the app to follow my photos and videos</p>
+                </a>
+            </div>
+            <div class="wrkBx">
+                <a href="https://www.tutorialspoint.com/drupal/index.htm" target="_blank">
+                    <img src="images/drupal.png" alt="">
+                    <p>Drupal is a free and open source Content Management System (CMS).</p>
+                </a>
+            </div>
+            <div class="wrkBx">
+                <a href="https://www.tutorialspoint.com/android/index.htm" target="_blank">
+                    <img src="images/android.jpg" alt="">
+                    <p>Android is an open source and Linux-based operating system for mobile devices.</p>
+                </a>
+            </div>
+            <div class="wrkBx">
+                <a href="https://www.tutorialspoint.com/e_commerce/index.htm" target="_blank">
+                    <img src="images/e-commerce.jpg" alt="">
+                    <p>E-Commerce or Electronics Commerce is a methodology of modern.</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="" target="_blank" class="btn" style="color: white;">View All My Works</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>Wht my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Naveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended</p>
+                <h3>Richard Wilson<br>Creative Designer</h3>
+               </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design. Thanks Naveen</p>
+                <h3>Joyce K<br>Web Designer (google)</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML-->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytime</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <address>Gangaluru, <br>Hosakote Taluk, Anugondanahalli Hobli<br>Bangalore Rural-562114</address>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no:</h3>
+                            <p>8310294128</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>naveenbn4923@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/profile.php?id=100007626552465" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/naveen-b-6a9505173" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/___naveen__navi__?r=nametag" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form >
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" rows="6" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML-->
+    <footer class="copyright">
+        <p>&copy; 2021, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>
